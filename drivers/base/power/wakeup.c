@@ -579,7 +579,7 @@ static bool check_for_block(struct wakeup_source *ws)
 	if (ws)
 	{
 		int length = strlen(ws->name);
-		char wakelock_name[length + 2];
+		char wakelock_name[64];
 
 		// wake lock names handled have maximum length=50 and minimum=1
 		if ((length > 50) || (length < 1))
