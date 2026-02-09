@@ -761,3 +761,6 @@ CONFIG_BBG=y
 
 # wakelock blocker
 CONFIG_BOEFFLA_WL_BLOCKER=y
+
+# enable mm Oplus memory management hack
+CONFIG_OPLUS_MM_HACKS=y
